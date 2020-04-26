@@ -75,7 +75,8 @@ public class MainActivity extends AppCompatActivity {
 
         String queryUrl = "http://apis.data.go.kr/6260000/BusanTblFnrstrnStusService/getTblFnrstrnStusInfo?"
                 + "serviceKey="+Key
-                +"&numOfRows=100&pageNo=1";
+                +"&numOfRows=100&pageNo=1"
+                +"&bsnsNm="+ location;
 
 
         try {
